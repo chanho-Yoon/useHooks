@@ -1,4 +1,4 @@
-const useTitle = () => {
+export const useTitle = () => {
   const [title, setTitle] = useState(null);
 
   const updateTitle = () => {
