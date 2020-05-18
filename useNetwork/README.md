@@ -3,9 +3,6 @@
 ### useNetwork(function) 은 현재 브라우저의 online(true) / offline(false) 를 반환 합니다.
 
 ```
-import React, { useState, useEffect, useRef } from "react";
-import "./styles.css";
-
 const useNetwork = onChange => {
   const [status, setStatus] = useState(navigator.onLine);
   const handleChange = () => {
